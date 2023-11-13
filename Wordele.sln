@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wordele", "Wordele\Wordele.csproj", "{641FDB8E-0B8D-4405-9D07-3333058E5E36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordeleLogic", "WordeleLogic\WordeleLogic.csproj", "{C1A91E07-59BD-4836-B338-4A83D13FA9EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{641FDB8E-0B8D-4405-9D07-3333058E5E36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{641FDB8E-0B8D-4405-9D07-3333058E5E36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{641FDB8E-0B8D-4405-9D07-3333058E5E36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{641FDB8E-0B8D-4405-9D07-3333058E5E36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1A91E07-59BD-4836-B338-4A83D13FA9EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1A91E07-59BD-4836-B338-4A83D13FA9EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1A91E07-59BD-4836-B338-4A83D13FA9EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1A91E07-59BD-4836-B338-4A83D13FA9EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
