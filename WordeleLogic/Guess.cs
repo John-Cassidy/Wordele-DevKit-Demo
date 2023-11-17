@@ -1,7 +1,7 @@
 ﻿namespace WordeleLogic
 {
     /// <summary>
-    /// Class <c>Guess</c> handles the game logic for Codele.
+    /// Class <c>Guess</c> handles the game logic for Wordele.
     /// </summary>
     public class Guess
     {

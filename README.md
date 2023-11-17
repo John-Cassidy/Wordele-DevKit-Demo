@@ -13,3 +13,9 @@ Branches:
 - Episode 5: debugging
 - Episode 6: testing
 - Final Product
+
+## Test Project
+
+Includes Blazor testing nuget package bUnit: [Creating bUnit test project](https://bunit.dev/docs/getting-started/create-test-project.html?tabs=xunit)
+
+Include [MockHttp](https://www.nuget.org/packages/RichardSzalay.MockHttp)
