@@ -17,7 +17,7 @@ public class PlayWordeleTests
 
         // Act
         var mock = ctx.Services.AddMockHttpClient();
-        mock.When("sample-data/codele-word-library.json").RespondJson(new string[2] { "hello", "world" });
+        mock.When("sample-data/wordele-word-library.json").RespondJson(new string[2] { "hello", "world" });
         var cut = ctx.RenderComponent<PlayWordele>();
 
         // Assert
@@ -33,7 +33,7 @@ public class PlayWordeleTests
         // Act
         var mock = ctx.Services.AddMockHttpClient();
         string[] answers = new string[2] { "hello", "world" };
-        mock.When("sample-data/codele-word-library.json").RespondJson(answers);
+        mock.When("sample-data/wordele-word-library.json").RespondJson(answers);
         var cut = ctx.RenderComponent<PlayWordele>(parameters => parameters.Add(p => p.answers, answers).Add(p => p.answer, "world"));
 
         cut.Find("input").Change("hello");
@@ -53,7 +53,7 @@ public class PlayWordeleTests
         // Act
         var mock = ctx.Services.AddMockHttpClient();
         string[] answers = new string[2] { "hello", "world" };
-        mock.When("sample-data/codele-word-library.json").RespondJson(answers);
+        mock.When("sample-data/wordele-word-library.json").RespondJson(answers);
         var cut = ctx.RenderComponent<PlayWordele>(parameters => parameters.Add(p => p.answers, answers).Add(p => p.answer, "world"));
 
         cut.Find("input").Change("world");
@@ -73,7 +73,7 @@ public class PlayWordeleTests
         // Act
         var mock = ctx.Services.AddMockHttpClient();
         string[] answers = new string[2] { "hello", "world" };
-        mock.When("sample-data/codele-word-library.json").RespondJson(answers);
+        mock.When("sample-data/wordele-word-library.json").RespondJson(answers);
         var cut = ctx.RenderComponent<PlayWordele>(parameters => parameters.Add(p => p.answers, answers).Add(p => p.answer, "hello"));
 
         cut.Find("input").Change("worlds");
@@ -95,7 +95,7 @@ public class PlayWordeleTests
         // Act
         var mock = ctx.Services.AddMockHttpClient();
         string[] answers = new string[3] { "hello", "world", "foo" };
-        mock.When("sample-data/codele-word-library.json").RespondJson(answers);
+        mock.When("sample-data/wordele-word-library.json").RespondJson(answers);
         var cut = ctx.RenderComponent<PlayWordele>(parameters => parameters.Add(p => p.answers, answers).Add(p => p.answer, "world"));
 
         cut.Find("input").Change("world");
@@ -115,7 +115,7 @@ public class PlayWordeleTests
         // Act
         var mock = ctx.Services.AddMockHttpClient();
         string[] answers = new string[3] { "hello", "world", "foo" };
-        mock.When("sample-data/codele-word-library.json").RespondJson(answers);
+        mock.When("sample-data/wordele-word-library.json").RespondJson(answers);
         var cut = ctx.RenderComponent<PlayWordele>(parameters => parameters.Add(p => p.answers, answers).Add(p => p.answer, "world"));
 
         cut.Find("input").Change("hello");
