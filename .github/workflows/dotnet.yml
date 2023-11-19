@@ -20,7 +20,7 @@ jobs:
           dotnet-version: '8.0.x'
 
       - name: Build project
-        run: dotnet build Wordele.csproj --configuration Release
+        run: dotnet build Wordele.csproj
 
       - name: Run tests
         run: dotnet test
@@ -38,7 +38,7 @@ jobs:
           dotnet-version: '8.0.x'
 
       - name: Build project
-        run: dotnet build Wordele.csproj --configuration Release
+        run: dotnet build Wordele.csproj
 
       - name: Run tests
         run: dotnet test
